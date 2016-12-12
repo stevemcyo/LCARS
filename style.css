@@ -1,0 +1,131 @@
+* {
+	text-transform: uppercase;
+}
+
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+}
+
+/*top section*/
+#top1 {
+		background-color: #9999CC;
+		width: 100%;
+		height: 20%;
+		border-radius: 0px 0px 0px 75px;
+		padding-bottom: 1%;
+}
+#top2 {
+		background-color: black;
+		width: 90%;
+		height: 100%;
+		margin-left: 10%;
+		border-radius: 0px 0px 0px 75px;
+		vertical-align: center;
+		text-indent: 8vw;
+		font-family: ultra;
+		font-size: 18vh;
+		color: #ff9900;
+}
+#top3 {
+		background-color: #CC99CC;
+		width: 10%;
+		height: 4%;
+		border-bottom-style: solid;
+		border-bottom-width: .4vw;
+		border-bottom-color: black;
+		position: absolute;
+}
+
+/*main section*/
+#main1 {
+		background-color: #CC6666;
+		width: 100%;
+		height: 73%;
+		margin-top: 1%;
+		padding-top: 1%;
+		border-radius: 75px 0px 0px 0px;
+}
+#main2 {
+		background-color: black;
+		width: 90%;
+		height: 92%;
+		margin-left: 10%;
+		border-radius: 75px 0px 0px 0px;
+		padding-top: 3%;
+		text-align: center;
+		color: #ff9900;
+		font-family: ultra;
+		font-size: 5vw;
+		overflow-y: scroll;
+}
+
+p {
+	font-family: extra;
+	font-size: 1.5vw;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*nav bar and buttons*/
+nav {
+		background-color: #FF9966;
+		width: 10%;
+		height: 59%;
+		margin-top: 7%;
+		position: absolute;
+}
+.button {
+			border-bottom-style: solid;
+			border-bottom-width: 5px;
+			border-bottom-color: black;
+			width: 100%;
+			height: 15%;
+			transition: all .2s ease-in-out;
+}
+.button:hover {
+	height: 25%;
+}
+#b1 {
+		background-color: #CC6666;
+		border-top-style: solid;
+		border-top-width: 5px;
+		border-top-color: black;
+}
+#b2 {	background-color: #FF9900;
+}
+#b3 {	background-color: #FF9966;
+}
+
+/*image formatting*/
+.icon {	width: 2vw;
+		height: 2vw;
+		margin: 5px;
+}
+.ship {width: 36vw;
+			height: 27vw;
+}
+
+#ufp {vertical-align: center;
+		margin-right: 20px;
+		margin-left: 20px;
+		width: 20vh;
+		height: 20vh;
+}
+
+/*Loads font and names them*/
+@font-face {	font-family: ultra;
+				src: url(font/tt0106m0.ttf);
+}
+@font-face {	font-family: extra;
+				src: url(font/tt0105m_.ttf);
+}
+
+#container1 {
+
+}
