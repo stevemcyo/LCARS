@@ -120,10 +120,10 @@ nav {
 
 /*Loads font and names them*/
 @font-face {	font-family: ultra;
-				src: url(/font/tt0106m0.ttf);
+				src: url(font/tt0106m0.ttf);
 }
 @font-face {	font-family: extra;
-				src: url(/font/tt0105m_.ttf);
+				src: url(font/tt0105m_.ttf);
 }
 
 #container1 {
